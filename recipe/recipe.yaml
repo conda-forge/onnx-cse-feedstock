@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: onnx-cse
-  version: "0.2.0"
+  version: "0.3.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/onnx_cse-${{ version }}.tar.gz
-  sha256: ebaa92db3eead5f99fdca36e58eeb572976a8cab882bad30f0da7c3448c99a9b
+  sha256: 463ebd9b53bcf7a545897b997f2f60f798732ae750c4968c2345aa9763d27d0f
 
 build:
   number: 0

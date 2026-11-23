@@ -30,7 +30,9 @@ requirements:
 
 tests:
   - python:
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
       imports:
         - onnx_cse
       pip_check: true
